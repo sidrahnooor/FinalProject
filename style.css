@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+}
+a{
+    padding: 0px 15px;
+    color: black;
+    text-decoration: none;
+}
+.about{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills{
+    width: 100%;
+    height: 400px;
+    background-color:azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    width: 100%;
+    height: 500px;
+    background-color:azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8rem;
+    color: azure;
+}
+.black{
+    color: black;
+}
+.contactme{
+    font-size: 1.2rem;
+    color: black;
+    display: block;
+}
+.form{
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display:flex ;
+}
+.form h1{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+input[type=text]{
+    width: 250px;
+    height: 35px;
+    border: 2px solid black;
+    padding-left: 8px;
+}
+input[type=email]{
+    width: 250px;
+    height: 35px;
+    border: 2px solid black;
+    padding-left: 8px;
+}
+textarea{
+    border: 2px solid black;
+    padding-left: 8px;
+}
+input[type=submit]{
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    color: azure;
+    border: none;
+}
